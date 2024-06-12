@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-import CircularProgress from '@mui/material/CircularProgress';
 import LinearProgress from '@mui/material/LinearProgress';
 
 export const ProgressBar = (value, maxValue) => {

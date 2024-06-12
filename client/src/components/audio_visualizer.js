@@ -3,7 +3,7 @@ import { LiveAudioVisualizer } from 'react-audio-visualize';
 
 const Visualizer = () => {
   const [mediaRecorder, setMediaRecorder] = useState(null);
-  const [isRecording, setIsRecording] = useState(false); // State to track if recording has started
+  const [isRecording, setIsRecording] = useState(false);
 
 
   useEffect(() => {
@@ -44,13 +44,13 @@ const Visualizer = () => {
   };
 
   return (
-    <div style={{ margin: '-100px' }}>
+    <div style={{ margin: '-100px'}}>
       {mediaRecorder && (
         <LiveAudioVisualizer
           mediaRecorder={mediaRecorder}
           width={550}
           height={400}
-          barColor='#DA7CF2'
+          barColor='#ff80ce'
         />
       )}
     </div>

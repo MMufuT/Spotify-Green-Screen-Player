@@ -16,8 +16,8 @@ const logRequestInfo = (req, res, next) => {
 app.use(cors());
 
 app.use(cors({
-    origin: process.env.FRONTEND_URL, // Replace with your frontend URL
-    credentials: true, // Set this to true to allow credentials (cookies) to be sent in the request
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
 }));
 
 app.use(logRequestInfo)
