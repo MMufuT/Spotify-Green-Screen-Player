@@ -14,6 +14,10 @@ const SpotifyPlayer = () => {
     const [refreshToken, setRefreshToken] = useState(() => localStorage.getItem('spotify_refresh_token'));
 
     useEffect(() => {
+        document.title = "Green Screen Spotify Player"
+    })
+
+    useEffect(() => {
         const initializePlayer = async () => {
             if (!accessToken) {
                 console.log('no token')
