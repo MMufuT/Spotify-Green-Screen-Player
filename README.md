@@ -3,7 +3,8 @@
 _**The purpose of this tool is to serve as a green screen player for your current playing spotify tracks.**_
 ![](https://github.com/MMufuT/Spotify-Green-Screen-Player/blob/main/web_app_demo.gif)
 
-**_In most editing softwares, the green screen can be keyed out and components can be resized to fit your style/preferences_**
+**_In most editing softwares, the green screen can be keyed out and components can be resized to fit your
+style/preferences_**
 ![](https://github.com/MMufuT/Spotify-Green-Screen-Player/blob/main/editing_demo.gif)
 
 ## Setting up Codebase
