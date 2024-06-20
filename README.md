@@ -1,7 +1,7 @@
 # Spotfy Green Screen Player
 
 The purpose of this tool is to serve as a green screen player for your current playing spotify tracks.
-![]([https://github.com/MMufuT/Spotify-Green-Screen-Player/blob/main/showcase1.gif](https://github.com/MMufuT/Spotify-Green-Screen-Player/blob/main/Mov%20to%20Gif%20Screen%20Recording.gif))
+![](https://github.com/MMufuT/Spotify-Green-Screen-Player/blob/main/Mov%20to%20Gif%20Screen%20Recording.gif)
 
 ## Setting up Codebase
 - Clone this repository
